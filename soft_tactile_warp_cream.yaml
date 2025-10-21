@@ -1,0 +1,26 @@
+name: Soft Tactile Warp Cream
+accent: '#b59a87'
+cursor: '#a0856f'
+background: '#faf7f2'
+foreground: '#4d4238'
+details: lighter
+
+terminal_colors:
+  normal:
+    black: '#5a4d42'
+    red: '#c69a85'
+    green: '#b29f8a'
+    yellow: '#d4b692'
+    blue: '#b59a87'
+    magenta: '#c3a896'
+    cyan: '#a99182'
+    white: '#faf7f2'
+  bright:
+    black: '#6e5f53'
+    red: '#d9b09d'
+    green: '#c9b5a0'
+    yellow: '#e6ccac'
+    blue: '#cdaf9f'
+    magenta: '#d9bcaa'
+    cyan: '#c0a898'
+    white: '#ffffff'
