@@ -1,6 +1,6 @@
 # Soft Tactile Warp Dark
 
-A premium neumorphic dark theme for [Warp Terminal](https://warp.dev) featuring warm, creamy-pastel tones optimized for extended coding sessions. Designed with eye comfort and visual elegance in mind.
+A premium neumorphic dark theme for [Warp Terminal](https://app.warp.dev/referral/4YXPLX) featuring warm, creamy-pastel tones optimized for extended coding sessions. Designed with eye comfort and visual elegance in mind.
 
 ## Design Philosophy
 
