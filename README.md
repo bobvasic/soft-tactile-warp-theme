@@ -201,7 +201,7 @@ MIT License - Free for personal and commercial use
 
 ## Credits
 
-**Created by:** Tim, Senior Enterprise Developer @ CyberLink Security  
+**Created by:** [Jelena @ CyberLink Security](https://github.com/jelenastricak)  
 **Design Inspiration:** Neumorphic UI principles and tactile design patterns  
 **For:** Warp Terminal Community
 
@@ -209,6 +209,7 @@ MIT License - Free for personal and commercial use
 
 For issues or customization requests:
 - Open an issue on GitHub: https://github.com/bobvasic/soft-tactile-warp-theme/issues
+- Email: info@cyberlinksec.com
 - Warp Community: https://discord.gg/warpdotdev
 
 ---
