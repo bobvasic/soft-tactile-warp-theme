@@ -13,31 +13,50 @@ This theme embraces **neumorphism** and **warm pastel design** principles:
 - **Monochromatic harmony** maintaining excellent readability
 - **Long-session optimized** for comfortable extended programming
 
-## Theme Showcase
+## Theme Collection — Three Variations, One Philosophy
 
-### 🌙 Soft Tactile Warp Dark (PRIMARY)
+### 🌙 **Dark** — *Midnight Espresso*
 
-**Background:** Rich warm brown (`#2b2520`)  
-**Accent:** Creamy taupe (`#9b8b7e`)  
-**Foreground:** Creamy beige (`#e5d5c5`)  
+**Background:** `#2b2520` — Rich warm brown  
+**Accent:** `#9b8b7e` — Creamy taupe  
+**Foreground:** `#e5d5c5` — Soft beige  
 
-**Perfect for:**
-- Late-night coding sessions
-- Reducing blue light exposure
-- Professional enterprise environments
-- Long-duration programming work
-- Developers who prefer warm, cozy aesthetics over cold blue/gray themes
+Rich warm brown background with creamy taupe accents. Designed for extended coding sessions and late-night work. Reduces eye strain through deep, cozy coffee-chocolate tones.
+
+**Perfect for:** Long hours • Low-light environments • Reducing blue light exposure • Late-night coding
 
 ---
 
-### Additional Variants (Bonus)
+### ☀️ **Light** — *Vanilla Latte*
 
-This repository also includes complementary light variants:
+**Background:** `#f5f0e8` — Creamy vanilla  
+**Accent:** `#a68a7d` — Warm terracotta  
+**Foreground:** `#4a3f38` — Dark coffee  
 
-- **Soft Tactile Warp Light** - Creamy vanilla background
-- **Soft Tactile Warp Cream** - White coffee cream background
+Soft creamy vanilla background with warm terracotta accents. Professional elegance meets comfortable brightness. A sophisticated alternative to harsh white themes.
 
-These share the same warm pastel philosophy for users who prefer brighter workspaces.
+**Perfect for:** Daytime work • Bright offices • Client demos • Professional presentations
+
+---
+
+### ☕ **Cream** — *Sun-Kissed Cappuccino*
+
+**Background:** `#F2E8D9` — Sun-tanned cream  
+**Accent:** `#BF9969` — Golden coffee crema  
+**Foreground:** `#5A4A3A` — Rich espresso  
+
+Warm sun-tanned cream background with golden coffee crema accents. Evokes Mediterranean warmth—like coffee basking in afternoon sunlight. The coziest light theme imaginable.
+
+**Perfect for:** All-day comfort • Warm aesthetics lovers • Eye-candy seekers • Creative work
+
+---
+
+**All variants feature:**
+- ✨ Zero cool tones — Pure warm palette
+- 🎨 Neumorphic design principles
+- 💼 Enterprise-grade aesthetics
+- 👁️ Eye-comfort optimized
+- 🚀 Production-ready quality
 
 ## Installation
 
@@ -104,10 +123,10 @@ curl -O https://raw.githubusercontent.com/[YOUR-USERNAME]/soft-tactile-warp-them
 ### Cream Theme
 | Element | Hex Code | Description |
 |---------|----------|-------------|
-| Background | `#faf7f2` | White coffee cream |
-| Foreground | `#4d4238` | Espresso text |
-| Accent | `#b59a87` | Caramel latte |
-| Cursor | `#a0856f` | Warm caramel |
+| Background | `#F2E8D9` | Sun-tanned cream |
+| Foreground | `#5A4A3A` | Rich espresso |
+| Accent | `#BF9969` | Golden coffee crema |
+| Cursor | `#BF9969` | Golden crema |
 
 ## Key Features
 
@@ -140,14 +159,39 @@ This theme is **ready for submission** to the [official Warp themes repository](
 
 ### For Warp Team Review
 
-**Theme Philosophy:**  
-Soft Tactile Warp Dark addresses the need for warm, comfortable dark themes that reduce eye strain during extended coding sessions. Unlike traditional blue/gray dark themes, this uses a coffee/chocolate inspired palette that's both professional and cozy.
+**Why This Theme Collection Matters:**
 
-**Target Audience:**  
-- Developers working late-night hours
-- Teams seeking reduced blue light exposure
-- Professionals wanting elegant, premium aesthetics
-- Users who find traditional dark themes too cold or harsh
+Soft Tactile Warp is the **first comprehensive warm-toned theme family** for Warp Terminal. While the existing theme library excels with cool blue/gray palettes, there's a notable gap for developers seeking warm, eye-comfort optimized alternatives.
+
+**Unique Value Proposition:**
+- 🌟 **Market Gap:** First warm brown/coffee-toned theme collection in Warp
+- 👁️ **Health-Focused:** Reduces blue light exposure for extended coding sessions (8+ hours)
+- 🎨 **Neumorphic Design:** Brings soft UI principles to terminal aesthetics
+- 💼 **Enterprise Ready:** Professional elegance suitable for client-facing work
+- ☕ **Psychological Comfort:** Evokes warmth and coziness vs cold, clinical feel
+
+**Target Audience:**
+- Developers working late-night hours seeking eye-friendly themes
+- Enterprise teams prioritizing developer wellness and comfort
+- Design-conscious professionals wanting premium aesthetics
+- Users who find traditional blue/gray themes too cold or sterile
+- Creative developers seeking warm, inviting workspace environments
+
+**Competitive Differentiation:**
+
+Most terminal themes (including Warp's defaults) lean heavily on cool tones. This collection introduces:
+- **Warm brown** instead of cold gray/blue
+- **Coffee/chocolate** palette instead of neon/cyberpunk
+- **Mediterranean warmth** instead of arctic minimalism
+- **Three cohesive variants** covering all lighting scenarios
+
+**Production Quality:**
+- ✅ Follows Warp YAML specification precisely
+- ✅ Tested across Linux, macOS, Windows
+- ✅ All 16 ANSI colors carefully calibrated
+- ✅ Zero cool tones — exclusively warm palette
+- ✅ Professional documentation and presentation
+- ✅ MIT licensed for community contribution
 
 ## Compatibility
 
