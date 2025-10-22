@@ -208,9 +208,8 @@ MIT License - Free for personal and commercial use
 ## Support
 
 For issues or customization requests:
-- Open an issue on GitHub
-- Contact: [your-email]
-- Warp Community: [Discord/Forum link]
+- Open an issue on GitHub: https://github.com/bobvasic/soft-tactile-warp-theme/issues
+- Warp Community: https://discord.gg/warpdotdev
 
 ---
 
