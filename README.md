@@ -60,47 +60,42 @@ Warm sun-tanned cream background with golden coffee crema accents. Evokes Medite
 
 ## Installation
 
-### Method 1: Manual Installation
+### From Official Warp Themes (Coming Soon)
 
-1. **Create themes directory:**
+Once merged into the official repository, these themes will be available directly in Warp:
+- `Settings > Appearance > Current Theme`
+- Search for "Soft Tactile Warp"
 
+### Manual Installation (Current)
+
+**macOS:**
 ```bash
-# Linux
-mkdir -p ${XDG_DATA_HOME:-$HOME/.local/share}/warp-terminal/themes/
-
-# macOS
 mkdir -p $HOME/.warp/themes/
-
-# Windows (PowerShell)
-New-Item -Path "$env:APPDATA\warp\Warp\data\themes\" -ItemType Directory
-```
-
-2. **Copy theme files:**
-
-```bash
-# Linux/macOS
-cp soft_tactile_warp_*.yaml ${XDG_DATA_HOME:-$HOME/.local/share}/warp-terminal/themes/
-
-# Windows (PowerShell)
-Copy-Item soft_tactile_warp_*.yaml "$env:APPDATA\warp\Warp\data\themes\"
-```
-
-3. **Activate theme:**
-   - Open Warp Terminal
-   - Go to `Settings > Appearance > Current Theme`
-   - Select "Soft Tactile Warp Dark" or "Soft Tactile Warp Light"
-
-### Method 2: Download from GitHub
-
-```bash
-# Linux
-cd ${XDG_DATA_HOME:-$HOME/.local/share}/warp-terminal/themes/
-wget https://raw.githubusercontent.com/[YOUR-USERNAME]/soft-tactile-warp-theme/main/soft_tactile_warp_dark.yaml
-
-# macOS
 cd $HOME/.warp/themes/
-curl -O https://raw.githubusercontent.com/[YOUR-USERNAME]/soft-tactile-warp-theme/main/soft_tactile_warp_dark.yaml
+curl -O https://raw.githubusercontent.com/bobvasic/soft-tactile-warp-theme/main/soft_tactile_warp_dark.yaml
+curl -O https://raw.githubusercontent.com/bobvasic/soft-tactile-warp-theme/main/soft_tactile_warp_light.yaml
+curl -O https://raw.githubusercontent.com/bobvasic/soft-tactile-warp-theme/main/soft_tactile_warp_cream.yaml
 ```
+
+**Linux:**
+```bash
+mkdir -p ${XDG_DATA_HOME:-$HOME/.local/share}/warp-terminal/themes/
+cd ${XDG_DATA_HOME:-$HOME/.local/share}/warp-terminal/themes/
+wget https://raw.githubusercontent.com/bobvasic/soft-tactile-warp-theme/main/soft_tactile_warp_dark.yaml
+wget https://raw.githubusercontent.com/bobvasic/soft-tactile-warp-theme/main/soft_tactile_warp_light.yaml
+wget https://raw.githubusercontent.com/bobvasic/soft-tactile-warp-theme/main/soft_tactile_warp_cream.yaml
+```
+
+**Windows (PowerShell):**
+```powershell
+New-Item -Path "$env:APPDATA\warp\Warp\data\themes\" -ItemType Directory -Force
+cd "$env:APPDATA\warp\Warp\data\themes\"
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/bobvasic/soft-tactile-warp-theme/main/soft_tactile_warp_dark.yaml" -OutFile "soft_tactile_warp_dark.yaml"
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/bobvasic/soft-tactile-warp-theme/main/soft_tactile_warp_light.yaml" -OutFile "soft_tactile_warp_light.yaml"
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/bobvasic/soft-tactile-warp-theme/main/soft_tactile_warp_cream.yaml" -OutFile "soft_tactile_warp_cream.yaml"
+```
+
+Restart Warp Terminal, then activate via `Settings > Appearance > Current Theme`
 
 ## Color Specifications
 
@@ -139,9 +134,10 @@ curl -O https://raw.githubusercontent.com/[YOUR-USERNAME]/soft-tactile-warp-them
 ✅ **Neumorphic Design** - Soft, tactile visual language  
 ✅ **Multiple Variants** - Dark, Light, and Cream options included
 
-## Screenshots
+## Contributing
 
-*[Screenshots will be auto-generated upon PR submission to Warp themes repo]*
+Contributions and feedback are welcome! Open an issue or submit a pull request at:
+https://github.com/bobvasic/soft-tactile-warp-theme
 
 ## Official Warp Theme Submission
 
