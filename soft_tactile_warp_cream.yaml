@@ -6,6 +6,7 @@
 
 name: Soft Tactile Warp Cream
 accent: '#BF9969'
+accent_hover: '#77634F'
 cursor: '#BF9969'
 background: '#F2E8D9'
 foreground: '#5A4A3A'
