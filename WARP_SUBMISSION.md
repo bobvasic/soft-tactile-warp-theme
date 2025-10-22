@@ -164,7 +164,7 @@ Introducing **Soft Tactile Warp** - the first comprehensive warm-toned theme fam
 ### Repository
 https://github.com/bobvasic/soft-tactile-warp-theme
 
-Created by Jelena @ CyberLink Security (https://github.com/jelenastricak)
+Created by Jelena (https://github.com/jelenastricak) & Bob (https://github.com/bobvasic) @ CyberLink Security
 ```
 
 4. Click **"Create pull request"**
