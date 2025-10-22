@@ -1,3 +1,5 @@
+![Soft Tactile](https://github.com/bobvasic/soft-tactile-warp-theme/blob/c114fe75b603414d39b81c0b083ef9d8b129504b/theme_thumbnail.png)
+
 # Soft Tactile Warp Dark
 
 A premium neumorphic dark theme for [Warp Terminal](https://app.warp.dev/referral/4YXPLX) featuring warm, creamy-pastel tones optimized for extended coding sessions. Designed with eye comfort and visual elegance in mind.
