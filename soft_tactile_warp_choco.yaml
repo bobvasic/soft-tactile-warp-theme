@@ -1,0 +1,37 @@
+# Soft Tactile Warp Choco - Choco Latte
+# A premium theme with authentic chocolate texture background and warm coffee accents
+# Features real chocolate imagery for commercial-grade aesthetic
+# All-night comfort optimized for late-night coding with deep chocolate warmth
+# Author: Bob Vasic (@bobvasic)
+# License: MIT
+
+name: Soft Tactile Warp Choco
+accent: '#a68a7d'
+accent_hover: '#8b7365'
+cursor: '#b5a798'
+background: '#2d1f18'
+background_image:
+  path: chocolate.png
+  opacity: 100
+foreground: '#e5d5c5'
+details: lighter
+
+terminal_colors:
+  normal:
+    black: '#6b5841'
+    red: '#c4745a'
+    green: '#8d7c4d'
+    yellow: '#c08b4e'
+    blue: '#987f65'
+    magenta: '#b07863'
+    cyan: '#a58962'
+    white: '#dbd0bd'
+  bright:
+    black: '#7b6450'
+    red: '#d58868'
+    green: '#a19064'
+    yellow: '#d2a463'
+    blue: '#ad937a'
+    magenta: '#c38c77'
+    cyan: '#baa077'
+    white: '#eae4da'

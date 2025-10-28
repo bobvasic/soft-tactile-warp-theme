@@ -41,10 +41,11 @@ git checkout -b theme/SoftTactileWarp
 ### Step 4: Add Theme Files to Standard Directory
 
 ```bash
-# Copy all three theme variants to the standard/ directory
+# Copy all four theme variants to the standard/ directory
 cp ~/soft-tactile-warp-theme/soft_tactile_warp_dark.yaml standard/
 cp ~/soft-tactile-warp-theme/soft_tactile_warp_light.yaml standard/
 cp ~/soft-tactile-warp-theme/soft_tactile_warp_cream.yaml standard/
+cp ~/soft-tactile-warp-theme/soft_tactile_warp_choco.yaml standard/
 ```
 
 ### Step 5: Install Python Dependencies
@@ -76,6 +77,8 @@ You should see:
 - `soft_tactile_warp_light.yaml.svg` (auto-generated)
 - `soft_tactile_warp_cream.yaml`
 - `soft_tactile_warp_cream.yaml.svg` (auto-generated)
+- `soft_tactile_warp_choco.yaml`
+- `soft_tactile_warp_choco.yaml.svg` (auto-generated)
 
 ### Step 8: Stage and Commit Changes
 
@@ -86,13 +89,16 @@ git add standard/soft_tactile_warp_light.yaml
 git add standard/soft_tactile_warp_light.yaml.svg
 git add standard/soft_tactile_warp_cream.yaml
 git add standard/soft_tactile_warp_cream.yaml.svg
+git add standard/soft_tactile_warp_choco.yaml
+git add standard/soft_tactile_warp_choco.yaml.svg
 
 git commit -m "Add Soft Tactile Warp theme collection
 
-- Three premium neumorphic warm-toned variants
-- Dark: Midnight Espresso (rich warm brown)
+- Four premium neumorphic & claymorphic warm-toned variants
+- Dark: Midnight Espresso (rich warm brown with claymorphic depth)
 - Light: Vanilla Latte (creamy vanilla)
 - Cream: Sun-Kissed Cappuccino (sun-tanned cream)
+- Choco: Choco Latte (dark desaturated brown)
 - First comprehensive warm coffee/chocolate palette for Warp
 - Designed for eye comfort and extended coding sessions
 - Zero cool tones - exclusively warm palette
@@ -125,7 +131,7 @@ Introducing **Soft Tactile Warp** - the first comprehensive warm-toned theme fam
 ### Variants Included
 
 #### 🌙 Soft Tactile Warp Dark - *Midnight Espresso*
-- Rich warm brown background (#2b2520)
+- Rich warm brown background (#3a3230) with claymorphic depth
 - Designed for extended coding sessions
 - Reduces eye strain through warm coffee-chocolate tones
 
@@ -139,13 +145,19 @@ Introducing **Soft Tactile Warp** - the first comprehensive warm-toned theme fam
 - Evokes Mediterranean warmth
 - Perfect for all-day comfort
 
+#### 🍫 Soft Tactile Warp Choco - *Choco Latte*
+- Dark desaturated brown background (#282521)
+- All-night comfort with reduced color intensity
+- Perfect balance between darkness and warmth
+
 ### Why This Collection Matters
 
 - **Market Gap:** First warm brown/coffee-toned theme collection in Warp
 - **Health-Focused:** Reduces blue light exposure for 8+ hour coding sessions
-- **Neumorphic Design:** Brings soft UI principles to terminal aesthetics
+- **Neumorphic & Claymorphic Design:** Brings soft UI principles to terminal aesthetics
 - **Enterprise Ready:** Professional elegance suitable for client-facing work
 - **Zero Cool Tones:** Exclusively warm palette (no blues/purples)
+- **Comprehensive Coverage:** Four variants covering all lighting and saturation preferences
 
 ### Target Audience
 - Developers working late-night hours
@@ -164,7 +176,7 @@ Introducing **Soft Tactile Warp** - the first comprehensive warm-toned theme fam
 ### Repository
 https://github.com/bobvasic/soft-tactile-warp-theme
 
-Created by Jelena (https://github.com/jelenastricak) & Bob (https://github.com/bobvasic) @ CyberLink Security
+Created by Bob Vasic (@bobvasic)
 ```
 
 4. Click **"Create pull request"**
@@ -180,7 +192,7 @@ Created by Jelena (https://github.com/jelenastricak) & Bob (https://github.com/b
 ## Important Notes
 
 ### ✅ DO
-- Include all three theme variants in one PR
+- Include all four theme variants in one PR
 - Generate thumbnails using the provided script
 - Follow the exact naming convention used in theme files
 - Provide comprehensive PR description
