@@ -1,0 +1,37 @@
+# Soft Tactile Warp Acrylic - Warm Slate
+# A premium theme with textured acrylic background and warm-saturated palette
+# Features deep blue-gray texture with warm copper-bronze terminal colors
+# Extended collection variant maintaining warm color philosophy over cool backdrop
+# Author: Bob Vasic (@bobvasic)
+# License: MIT
+
+name: Soft Tactile Warp Acrylic
+accent: '#c9956d'
+accent_hover: '#a67b59'
+cursor: '#d4a87b'
+background: '#192d3d'
+background_image:
+  path: acrylics.png
+  opacity: 100
+foreground: '#e8d4c0'
+details: darker
+
+terminal_colors:
+  normal:
+    black: '#3d2f28'
+    red: '#d4836a'
+    green: '#b89664'
+    yellow: '#dfa966'
+    blue: '#9d8570'
+    magenta: '#c5856d'
+    cyan: '#b08865'
+    white: '#e8d4c0'
+  bright:
+    black: '#5a4438'
+    red: '#e69b7f'
+    green: '#cdaa79'
+    yellow: '#f0bc7b'
+    blue: '#b59b85'
+    magenta: '#d99a82'
+    cyan: '#c59d7a'
+    white: '#f5e8d8'

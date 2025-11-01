@@ -15,7 +15,7 @@ This collection embraces **neumorphism**, **claymorphism**, and **warm pastel de
 - **Long-session optimized** for comfortable extended programming
 - **Comprehensive coverage** for all lighting conditions and preferences
 
-## Theme Collection — Four Variations, One Philosophy
+## Theme Collection — Five Variations, Unified Philosophy
 
 ### 🌙 **Dark** — *Midnight Espresso*
 
@@ -94,8 +94,28 @@ Dark theme variant with rich chocolate tones extracted from real chocolate image
 
 ---
 
-**All four variants feature:**
-- ✨ Zero cool tones — Pure warm palette
+### 🎨 **Acrylic** — *Warm Slate*
+
+**Background:** `#192d3d` — Deep midnight slate + **acrylics.png texture**  
+**Accent:** `#c9956d` — Warm copper  
+**Foreground:** `#e8d4c0` — Creamy beige  
+**Details:** Darker
+
+Extended collection variant featuring deep blue-gray acrylic texture with warm copper-bronze terminal palette. Creates beautiful visual tension between cool textured backdrop and warm coding colors. Optimized for late-night sessions with 15% darker background for maximum eye comfort during extended hours. Maintains warm color philosophy for terminal output while utilizing premium acrylic aesthetic.
+
+**Technical Highlights:**
+- **Background image:** Real acrylic texture (acrylics.png) at 100% opacity
+- Deep midnight slate (#192d3d) darkened by 15% for night optimization
+- Warm copper/bronze/terracotta terminal palette maintains eye comfort
+- Visual contrast between cool texture and warm colors creates depth
+- Perfect balance of modern aesthetic and coding comfort
+
+**Perfect for:** Late-night marathons • Extended focus sessions • Modern aesthetic lovers • Deep concentration • Premium visual depth
+
+---
+
+**All five variants feature:**
+- ✨ Warm-focused palette (Acrylic variant features warm terminal colors over textured backdrop)
 - 🎨 Neumorphic & claymorphic design principles
 - 💼 Enterprise-grade aesthetics
 - 👁️ Eye-comfort optimized for 8+ hour coding sessions
@@ -123,8 +143,10 @@ curl -O https://raw.githubusercontent.com/bobvasic/soft-tactile-warp-theme/main/
 curl -O https://raw.githubusercontent.com/bobvasic/soft-tactile-warp-theme/main/soft_tactile_warp_light.yaml
 curl -O https://raw.githubusercontent.com/bobvasic/soft-tactile-warp-theme/main/soft_tactile_warp_cream.yaml
 curl -O https://raw.githubusercontent.com/bobvasic/soft-tactile-warp-theme/main/soft_tactile_warp_choco.yaml
-# Download chocolate background image for Choco theme
+curl -O https://raw.githubusercontent.com/bobvasic/soft-tactile-warp-theme/main/soft_tactile_warp_acrylic.yaml
+# Download background images for Choco and Acrylic themes
 curl -O https://raw.githubusercontent.com/bobvasic/soft-tactile-warp-theme/main/chocolate.png
+curl -O https://raw.githubusercontent.com/bobvasic/soft-tactile-warp-theme/main/acrylics.png
 ```
 
 **Linux:**
@@ -135,8 +157,10 @@ wget https://raw.githubusercontent.com/bobvasic/soft-tactile-warp-theme/main/sof
 wget https://raw.githubusercontent.com/bobvasic/soft-tactile-warp-theme/main/soft_tactile_warp_light.yaml
 wget https://raw.githubusercontent.com/bobvasic/soft-tactile-warp-theme/main/soft_tactile_warp_cream.yaml
 wget https://raw.githubusercontent.com/bobvasic/soft-tactile-warp-theme/main/soft_tactile_warp_choco.yaml
-# Download chocolate background image for Choco theme
+wget https://raw.githubusercontent.com/bobvasic/soft-tactile-warp-theme/main/soft_tactile_warp_acrylic.yaml
+# Download background images for Choco and Acrylic themes
 wget https://raw.githubusercontent.com/bobvasic/soft-tactile-warp-theme/main/chocolate.png
+wget https://raw.githubusercontent.com/bobvasic/soft-tactile-warp-theme/main/acrylics.png
 ```
 
 **Windows (PowerShell):**
@@ -147,8 +171,10 @@ Invoke-WebRequest -Uri "https://raw.githubusercontent.com/bobvasic/soft-tactile-
 Invoke-WebRequest -Uri "https://raw.githubusercontent.com/bobvasic/soft-tactile-warp-theme/main/soft_tactile_warp_light.yaml" -OutFile "soft_tactile_warp_light.yaml"
 Invoke-WebRequest -Uri "https://raw.githubusercontent.com/bobvasic/soft-tactile-warp-theme/main/soft_tactile_warp_cream.yaml" -OutFile "soft_tactile_warp_cream.yaml"
 Invoke-WebRequest -Uri "https://raw.githubusercontent.com/bobvasic/soft-tactile-warp-theme/main/soft_tactile_warp_choco.yaml" -OutFile "soft_tactile_warp_choco.yaml"
-# Download chocolate background image for Choco theme
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/bobvasic/soft-tactile-warp-theme/main/soft_tactile_warp_acrylic.yaml" -OutFile "soft_tactile_warp_acrylic.yaml"
+# Download background images for Choco and Acrylic themes
 Invoke-WebRequest -Uri "https://raw.githubusercontent.com/bobvasic/soft-tactile-warp-theme/main/chocolate.png" -OutFile "chocolate.png"
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/bobvasic/soft-tactile-warp-theme/main/acrylics.png" -OutFile "acrylics.png"
 ```
 
 Restart Warp Terminal, then activate via `Settings > Appearance > Current Theme`
@@ -188,6 +214,15 @@ Restart Warp Terminal, then activate via `Settings > Appearance > Current Theme`
 | Accent | `#A68A7D` | Warm terracotta |
 | Cursor | `#B5A798` | Soft sand |
 
+### Acrylic Theme
+| Element | Hex Code | Description |
+|---------|----------|-------------|
+| Background | `#192d3d` | Deep midnight slate |
+| Background Image | `acrylics.png` | Real acrylic texture (100% opacity) |
+| Foreground | `#e8d4c0` | Creamy beige |
+| Accent | `#c9956d` | Warm copper |
+| Cursor | `#d4a87b` | Golden bronze |
+
 ## Key Features
 
 ✅ **Eye Comfort First** - Warm color temperature reduces blue light exposure  
@@ -197,7 +232,7 @@ Restart Warp Terminal, then activate via `Settings > Appearance > Current Theme`
 ✅ **High Contrast Text** - Excellent readability without harsh edges  
 ✅ **ANSI Color Support** - Full terminal color compatibility  
 ✅ **Neumorphic Design** - Soft, tactile visual language  
-✅ **Multiple Variants** - Dark, Light, Cream, and Choco options included  
+✅ **Multiple Variants** - Dark, Light, Cream, Choco, and Acrylic options included
 ✅ **Claymorphic Depth** - Warm clay-like texture and depth  
 ✅ **Premium Textures** - Choco theme features real chocolate background imagery  
 ✅ **Scientifically Calibrated** - Colors extracted from real-world materials
