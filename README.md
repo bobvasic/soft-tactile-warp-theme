@@ -94,28 +94,28 @@ Dark theme variant with rich chocolate tones extracted from real chocolate image
 
 ---
 
-### 🎨 **Acrylic** — *Warm Slate*
+### 🎨 **Acrylic** — *Claymorphic Painting*
 
-**Background:** `#192d3d` — Deep midnight slate + **acrylics.png texture**  
-**Accent:** `#c9956d` — Warm copper  
-**Foreground:** `#e8d4c0` — Creamy beige  
+**Background:** `#d4dce8` — Gentle blue-lavender pastel  
+**Accent:** `#e8b86d` — Golden wheat  
+**Foreground:** `#2a2d3a` — Deep charcoal  
 **Details:** Darker
 
-Extended collection variant featuring deep blue-gray acrylic texture with warm copper-bronze terminal palette. Creates beautiful visual tension between cool textured backdrop and warm coding colors. Optimized for late-night sessions with 15% darker background for maximum eye comfort during extended hours. Maintains warm color philosophy for terminal output while utilizing premium acrylic aesthetic.
+Pastel claymorphic theme with soft gradient aesthetic resembling painted acrylic artwork. Features a gentle blue-lavender background with high contrast dark text for exceptional readability. Designed specifically for long coding sessions with painting-like visual appeal. No background image—pure color gradient creates a clean, artistic workspace.
 
 **Technical Highlights:**
-- **Background image:** Real acrylic texture (acrylics.png) at 100% opacity
-- Deep midnight slate (#192d3d) darkened by 15% for night optimization
-- Warm copper/bronze/terracotta terminal palette maintains eye comfort
-- Visual contrast between cool texture and warm colors creates depth
-- Perfect balance of modern aesthetic and coding comfort
+- Pure pastel background (#d4dce8) for soft, eye-friendly base
+- High contrast dark foreground (#2a2d3a) ensures excellent readability
+- Warm golden accents (#e8b86d) add painting-like warmth
+- Balanced terminal colors optimized for code syntax highlighting
+- Claymorphic aesthetic without texture overlay
 
-**Perfect for:** Late-night marathons • Extended focus sessions • Modern aesthetic lovers • Deep concentration • Premium visual depth
+**Perfect for:** Long coding sessions • Eye comfort priority • Artistic aesthetics • Clean workspace • Day/night versatility
 
 ---
 
 **All five variants feature:**
-- ✨ Warm-focused palette (Acrylic variant features warm terminal colors over textured backdrop)
+- ✨ Warm-focused palette (Acrylic variant features pastel claymorphic aesthetic)
 - 🎨 Neumorphic & claymorphic design principles
 - 💼 Enterprise-grade aesthetics
 - 👁️ Eye-comfort optimized for 8+ hour coding sessions
@@ -144,9 +144,8 @@ curl -O https://raw.githubusercontent.com/bobvasic/soft-tactile-warp-theme/main/
 curl -O https://raw.githubusercontent.com/bobvasic/soft-tactile-warp-theme/main/soft_tactile_warp_cream.yaml
 curl -O https://raw.githubusercontent.com/bobvasic/soft-tactile-warp-theme/main/soft_tactile_warp_choco.yaml
 curl -O https://raw.githubusercontent.com/bobvasic/soft-tactile-warp-theme/main/soft_tactile_warp_acrylic.yaml
-# Download background images for Choco and Acrylic themes
+# Download background image for Choco theme
 curl -O https://raw.githubusercontent.com/bobvasic/soft-tactile-warp-theme/main/chocolate.png
-curl -O https://raw.githubusercontent.com/bobvasic/soft-tactile-warp-theme/main/acrylics.png
 ```
 
 **Linux:**
@@ -158,9 +157,8 @@ wget https://raw.githubusercontent.com/bobvasic/soft-tactile-warp-theme/main/sof
 wget https://raw.githubusercontent.com/bobvasic/soft-tactile-warp-theme/main/soft_tactile_warp_cream.yaml
 wget https://raw.githubusercontent.com/bobvasic/soft-tactile-warp-theme/main/soft_tactile_warp_choco.yaml
 wget https://raw.githubusercontent.com/bobvasic/soft-tactile-warp-theme/main/soft_tactile_warp_acrylic.yaml
-# Download background images for Choco and Acrylic themes
+# Download background image for Choco theme
 wget https://raw.githubusercontent.com/bobvasic/soft-tactile-warp-theme/main/chocolate.png
-wget https://raw.githubusercontent.com/bobvasic/soft-tactile-warp-theme/main/acrylics.png
 ```
 
 **Windows (PowerShell):**
@@ -172,9 +170,8 @@ Invoke-WebRequest -Uri "https://raw.githubusercontent.com/bobvasic/soft-tactile-
 Invoke-WebRequest -Uri "https://raw.githubusercontent.com/bobvasic/soft-tactile-warp-theme/main/soft_tactile_warp_cream.yaml" -OutFile "soft_tactile_warp_cream.yaml"
 Invoke-WebRequest -Uri "https://raw.githubusercontent.com/bobvasic/soft-tactile-warp-theme/main/soft_tactile_warp_choco.yaml" -OutFile "soft_tactile_warp_choco.yaml"
 Invoke-WebRequest -Uri "https://raw.githubusercontent.com/bobvasic/soft-tactile-warp-theme/main/soft_tactile_warp_acrylic.yaml" -OutFile "soft_tactile_warp_acrylic.yaml"
-# Download background images for Choco and Acrylic themes
+# Download background image for Choco theme
 Invoke-WebRequest -Uri "https://raw.githubusercontent.com/bobvasic/soft-tactile-warp-theme/main/chocolate.png" -OutFile "chocolate.png"
-Invoke-WebRequest -Uri "https://raw.githubusercontent.com/bobvasic/soft-tactile-warp-theme/main/acrylics.png" -OutFile "acrylics.png"
 ```
 
 Restart Warp Terminal, then activate via `Settings > Appearance > Current Theme`
@@ -217,11 +214,10 @@ Restart Warp Terminal, then activate via `Settings > Appearance > Current Theme`
 ### Acrylic Theme
 | Element | Hex Code | Description |
 |---------|----------|-------------|
-| Background | `#192d3d` | Deep midnight slate |
-| Background Image | `acrylics.png` | Real acrylic texture (100% opacity) |
-| Foreground | `#e8d4c0` | Creamy beige |
-| Accent | `#c9956d` | Warm copper |
-| Cursor | `#d4a87b` | Golden bronze |
+| Background | `#d4dce8` | Gentle blue-lavender pastel |
+| Foreground | `#2a2d3a` | Deep charcoal |
+| Accent | `#e8b86d` | Golden wheat |
+| Cursor | `#ffd699` | Bright gold |
 
 ## Key Features
 

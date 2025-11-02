@@ -1,37 +1,34 @@
-# Soft Tactile Warp Acrylic - Warm Slate
-# A premium theme with textured acrylic background and warm-saturated palette
-# Features deep blue-gray texture with warm copper-bronze terminal colors
-# Extended collection variant maintaining warm color philosophy over cool backdrop
+# Soft Tactile Warp Acrylic - Claymorphic Painting
+# A pastel claymorphic theme with soft gradients for long coding sessions
+# Features gentle blue-lavender base with high contrast warm text colors
+# Optimized for eye comfort and code readability
 # Author: Bob Vasic (@bobvasic)
 # License: MIT
 
 name: Soft Tactile Warp Acrylic
-accent: '#c9956d'
-accent_hover: '#a67b59'
-cursor: '#d4a87b'
-background: '#192d3d'
-background_image:
-  path: acrylics.png
-  opacity: 100
-foreground: '#e8d4c0'
+accent: '#e8b86d'
+accent_hover: '#d4a87b'
+cursor: '#ffd699'
+background: '#d4dce8'
+foreground: '#2a2d3a'
 details: darker
 
 terminal_colors:
   normal:
-    black: '#3d2f28'
-    red: '#d4836a'
-    green: '#b89664'
-    yellow: '#dfa966'
-    blue: '#9d8570'
-    magenta: '#c5856d'
-    cyan: '#b08865'
-    white: '#e8d4c0'
+    black: '#3a3d48'
+    red: '#c85d5f'
+    green: '#6b9967'
+    yellow: '#d49557'
+    blue: '#6a8fb5'
+    magenta: '#a87099'
+    cyan: '#5d97a8'
+    white: '#2a2d3a'
   bright:
-    black: '#5a4438'
-    red: '#e69b7f'
-    green: '#cdaa79'
-    yellow: '#f0bc7b'
-    blue: '#b59b85'
-    magenta: '#d99a82'
-    cyan: '#c59d7a'
-    white: '#f5e8d8'
+    black: '#5a5d6a'
+    red: '#e67375'
+    green: '#85b381'
+    yellow: '#f0ac6d'
+    blue: '#84a8ce'
+    magenta: '#c288b0'
+    cyan: '#75afc2'
+    white: '#1a1d28'
