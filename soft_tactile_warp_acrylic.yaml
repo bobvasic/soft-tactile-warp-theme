@@ -9,8 +9,8 @@ name: Soft Tactile Warp Acrylic
 accent: '#e8b86d'
 accent_hover: '#d4a87b'
 cursor: '#ffd699'
-background: '#d4dce8'
-foreground: '#2a2d3a'
+background: '#1a1d28'
+foreground: '#e8e9ed'
 details: darker
 
 terminal_colors:
